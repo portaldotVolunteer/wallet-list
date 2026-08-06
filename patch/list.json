@@ -1,0 +1,35 @@
+{
+  "patchVersion": "0.0.1",
+  "appliedVersion": "0.0.0",
+  "timestamp": 1760950975201,
+  "ChainInfo": {},
+  "ChainInfoHashMap": {},
+  "ChainAsset": {
+    "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955",
+    "name": "Binance-Peg BSC-USD",
+    "symbol": "USDT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x55d398326f99059fF775485246999027B3197955"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-assets-icon/binance-erc20-usdt-0x55d398326f99059ff775485246999027b3197955.png"
+  }
+  },
+  "ChainAssetHashMap": {
+    "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955": "8eeabb5236970184690d0331f0f87b8f"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "binance-erc20-usdt-0x55d398326f99059ff775485246999027b3197955": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-assets-icon/binance-erc20-usdt-0x55d398326f99059ff775485246999027b3197955.png"
+  },
+  "ChainLogoMap": {},
+  "mAssetLogoMap": {}
+}

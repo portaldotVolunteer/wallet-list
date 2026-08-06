@@ -4,7 +4,7 @@
         "name": "Portaldot",
         "isTestnet": false,
         "chainStatus": "ACTIVE",
-        "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/icons/chains/portaldot.png",
+        "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/icons/chains/portaldot.png",
         "providers": {
             "Mainnet": "wss://mainnet.portaldot.io"
         },
@@ -39,7 +39,7 @@
         "name": "BNB Chain",
         "isTestnet": false,
         "chainStatus": "ACTIVE",
-        "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/icons/chains/binance.png",
+        "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/icons/chains/binance.png",
         "providers": {
             "Binance": "https://bsc-dataseed.binance.org/",
             "Defibit": "https://bsc-dataseed1.defibit.io/",
@@ -72,7 +72,7 @@
         "name": "Binance Smart Chain(Testnet)",
         "isTestnet": true,
         "chainStatus": "ACTIVE",
-        "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/icons/chains/binance_test.png",
+        "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/icons/chains/binance_test.png",
         "providers": {
             "Binance": "https://data-seed-prebsc-1-s1.binance.org:8545/",
             "Binance2": "https://data-seed-prebsc-2-s1.binance.org:8545/"

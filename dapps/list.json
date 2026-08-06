@@ -10,8 +10,8 @@
     "is_featured": true,
     "ordinal": 1,
     "desktop_mode": null,
-    "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/dapps/dapps-icon/icon-1.png",
-    "preview_image": "https://cdn.githubraw.com/fsnick169/wallet-info/main/dapps/dapps-image/image-1.png",
+    "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/dapps/dapps-icon/icon-1.png",
+    "preview_image": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/dapps/dapps-image/image-1.png",
     "chains": [
       "portaldot"
     ],
@@ -30,8 +30,8 @@
     "is_featured": true,
     "ordinal": 2,
     "desktop_mode": null,
-    "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/dapps/dapps-icon/icon-2.png",
-    "preview_image": "https://cdn.githubraw.com/fsnick169/wallet-info/main/dapps/dapps-image/image-2.png",
+    "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/dapps/dapps-icon/icon-2.png",
+    "preview_image": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/dapps/dapps-image/image-2.png",
     "chains": [
       "portaldot"
     ],
