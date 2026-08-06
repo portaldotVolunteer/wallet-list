@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "tool",
+    "name": "Tool",
+    "color": "red",
+    "description": null,
+    "ordinal": 1
+  },
+  {
+    "slug": "data",
+    "name": "Data",
+    "color": "green",
+    "description": null,
+    "ordinal": 2
+  }
+]

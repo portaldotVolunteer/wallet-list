@@ -1,0 +1,98 @@
+[
+    {
+        "slug": "portaldot",
+        "name": "Portaldot",
+        "isTestnet": false,
+        "chainStatus": "ACTIVE",
+        "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/icons/chains/portaldot.png",
+        "providers": {
+            "Mainnet": "wss://mainnet.portaldot.io"
+        },
+        "evmInfo": null,
+        "substrateInfo": {
+            "relaySlug": null,
+            "paraId": null,
+            "genesisHash": "0x83b5212c69f85f3996f8696bb35bf913af51b176a5f53d0a74fd3a83dc0b8a54",
+            "addressPrefix": 42,
+            "chainType": "RELAYCHAIN",
+            "crowdloanUrl": null,
+            "blockExplorer": "https://portalscan.portaldot.io/",
+            "existentialDeposit": "100000000000000",
+            "symbol": "POT",
+            "decimals": 14,
+            "hasNativeNft": false,
+            "supportStaking": true,
+            "supportSmartContract": null,
+            "crowdloanParaId": null,
+            "crowdloanFunds": []
+        },
+        "extraInfo": {
+            "subscanSlug": "portaldot",
+            "chainBalanceSlug": "portaldot"
+        },
+        "bitcoinInfo": null,
+        "tonInfo": null,
+        "cardanoInfo": null
+    },
+    {
+        "slug": "binance",
+        "name": "BNB Chain",
+        "isTestnet": false,
+        "chainStatus": "ACTIVE",
+        "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/icons/chains/binance.png",
+        "providers": {
+            "Binance": "https://bsc-dataseed.binance.org/",
+            "Defibit": "https://bsc-dataseed1.defibit.io/",
+            "Ninicoin": "https://bsc-dataseed1.ninicoin.io/",
+            "Nodereal": "https://bsc.nodereal.io/"
+        },
+        "evmInfo": {
+            "evmChainId": 56,
+            "blockExplorer": "https://bscscan.com",
+            "existentialDeposit": "0",
+            "symbol": "BNB",
+            "decimals": 18,
+            "supportSmartContract": [
+                "ERC20",
+                "ERC721"
+            ],
+            "abiExplorer": null
+        },
+        "substrateInfo": null,
+        "extraInfo": {
+            "subscanSlug": null,
+            "chainBalanceSlug": "bsc"
+        },
+        "bitcoinInfo": null,
+        "tonInfo": null,
+        "cardanoInfo": null
+    },
+    {
+        "slug": "binance_test",
+        "name": "Binance Smart Chain(Testnet)",
+        "isTestnet": true,
+        "chainStatus": "ACTIVE",
+        "icon": "https://cdn.githubraw.com/fsnick169/wallet-info/main/icons/chains/binance_test.png",
+        "providers": {
+            "Binance": "https://data-seed-prebsc-1-s1.binance.org:8545/",
+            "Binance2": "https://data-seed-prebsc-2-s1.binance.org:8545/"
+        },
+        "evmInfo": {
+            "evmChainId": 97,
+            "blockExplorer": "https://testnet.bscscan.com",
+            "existentialDeposit": "0",
+            "symbol": "tBNB",
+            "decimals": 18,
+            "supportSmartContract": [
+                "ERC20",
+                "ERC721"
+            ],
+            "abiExplorer": null
+        },
+        "substrateInfo": null,
+        "extraInfo": null,
+        "bitcoinInfo": null,
+        "tonInfo": null,
+        "cardanoInfo": null
+    }
+]

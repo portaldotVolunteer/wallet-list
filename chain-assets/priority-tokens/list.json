@@ -1,0 +1,9 @@
+{
+  "tokenGroup" : {
+    "BNB-Binance": 1
+  },
+  "token" : {
+    "portaldot-NATIVE-POT": 1,
+    "binance-NATIVE-BNB": 2
+  }
+}
