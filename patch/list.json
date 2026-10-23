@@ -1,35 +1,162 @@
 {
-  "patchVersion": "0.0.1",
-  "appliedVersion": "0.0.0",
-  "timestamp": 1760950975201,
-  "ChainInfo": {},
-  "ChainInfoHashMap": {},
-  "ChainAsset": {
-    "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955": {
-    "originChain": "binance",
-    "slug": "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955",
-    "name": "Binance-Peg BSC-USD",
-    "symbol": "USDT",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0x55d398326f99059fF775485246999027B3197955"
+  "patchVersion": "0.0.2",
+  "appliedVersion": "0.0.1",
+  "timestamp": 1760950975212,
+  "ChainInfo": {
+    "portaldot_v3": {
+      "slug": "portaldot_v3",
+      "name": "Portaldot V3",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-chains-icon/portaldot_v3.png",
+      "providers": {
+        "Live-Node": "wss://live-v3-node.portaldot.dev"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x6e7f1f24628d2fa3a1ac81a8b45157c63b1037fee4123a7664aae2c55cdbbc36",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://scanner-live-v3.portaldot.dev/",
+        "existentialDeposit": "10000000000000",
+        "symbol": "POT",
+        "decimals": 14,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": null,
+        "chainBalanceSlug": "portaldot_v3"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     },
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-assets-icon/binance-erc20-usdt-0x55d398326f99059ff775485246999027b3197955.png"
-  }
+    "portaldot_v3_test": {
+      "slug": "portaldot_v3_test",
+      "name": "Portaldot V3 Testnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-chains-icon/portaldot_v3_test.png",
+      "providers": {
+        "Testnet-Node": "wss://test-node-v3.portaldot.dev"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xd4f9acbcf7f52388d8b095abe3c198d19fc510e0343e643e87cfbccb155283bd",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://scanner-testnet-v3.portaldot.dev/",
+        "existentialDeposit": "10000000000000",
+        "symbol": "tPOT",
+        "decimals": 14,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": null,
+        "chainBalanceSlug": "portaldot_v3_test"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "portaldot_v3": "b86cc1e99f011ab141a46e9fdb2dd2c2",
+    "portaldot_v3_test": "60f6d3f9bbe8ed766536fe14b9be5134"
+  },
+  "ChainAsset": {
+    "portaldot_v3-NATIVE-POT": {
+      "originChain": "portaldot_v3",
+      "slug": "portaldot_v3-NATIVE-POT",
+      "name": "Portaldot V3",
+      "symbol": "POT-V3",
+      "decimals": 14,
+      "priceId": null,
+      "minAmount": "10000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-chains-icon/portaldot_v3.png"
+    },
+    "portaldot_v3_test-NATIVE-tPOT": {
+      "originChain": "portaldot_v3_test",
+      "slug": "portaldot_v3_test-NATIVE-tPOT",
+      "name": "Portaldot V3 Testnet",
+      "symbol": "tPOT-V3",
+      "decimals": 14,
+      "priceId": null,
+      "minAmount": "10000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-chains-icon/portaldot_v3_test.png"
+    },
+    "binance-ERC20-WPOT-0x123b057A772D463174fCFBF0f97E6ccDb166a999": {
+      "originChain": "binance",
+      "slug": "binance-ERC20-WPOT-0x123b057A772D463174fCFBF0f97E6ccDb166a999",
+      "name": "Wrapped POT",
+      "symbol": "WPOT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": null,
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x123b057A772D463174fCFBF0f97E6ccDb166a999"
+      },
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-assets-icon/binance-erc20-wpot-0x123b057A772D463174fCFBF0f97E6ccDb166a999.png"
+    },
+    "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955": {
+      "originChain": "binance",
+      "slug": "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955",
+      "name": "Binance-Peg BSC-USD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": null,
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-assets-icon/binance-erc20-usdt-0x55d398326f99059ff775485246999027b3197955.png"
+    }
   },
   "ChainAssetHashMap": {
+    "portaldot_v3-NATIVE-POT": "6ad1fb5e60f15d7842839e5b71089374",
+    "portaldot_v3_test-NATIVE-tPOT": "bc0090feaf0aa244f1efebaa65c3bf44",
+    "binance-ERC20-WPOT-0x123b057A772D463174fCFBF0f97E6ccDb166a999": "54f24871e83e5ad77d91fb4d44400d6d",
     "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955": "8eeabb5236970184690d0331f0f87b8f"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
+    "portaldot_v3-native-pot": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-chains-icon/portaldot_v3.png",
+    "portaldot_v3_test-native-tpot": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-chains-icon/portaldot_v3_test.png",
+    "binance-erc20-wpot-0x123b057a772d463174fcfbf0f97e6ccdb166a999": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-assets-icon/binance-erc20-wpot-0x123b057A772D463174fCFBF0f97E6ccDb166a999.png",
     "binance-erc20-usdt-0x55d398326f99059ff775485246999027b3197955": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-assets-icon/binance-erc20-usdt-0x55d398326f99059ff775485246999027b3197955.png"
   },
-  "ChainLogoMap": {},
+  "ChainLogoMap": {
+    "portaldot_v3": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-chains-icon/portaldot_v3.png",
+    "portaldot_v3_test": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/patch/patch-chains-icon/portaldot_v3_test.png"
+  },
   "mAssetLogoMap": {}
 }

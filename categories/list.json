@@ -12,5 +12,12 @@
     "color": "green",
     "description": null,
     "ordinal": 2
+  },
+  {
+    "slug": "bridge",
+    "name": "Bridge",
+    "color": "blue",
+    "description": null,
+    "ordinal": 3
   }
 ]

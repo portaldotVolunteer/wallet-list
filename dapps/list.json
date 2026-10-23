@@ -1,42 +1,62 @@
 [
   {
-    "id": 1,
-    "title": "Portaldot Node Explorer",
-    "description": "Portaldot Node Explorer",
-    "url": "https://www.portaldot.io",
-    "subtitle": "Portaldot Node Explorer",
+    "id": 3,
+    "title": "Portaldot V3 Node Explorer",
+    "description": "PortaldotV3 Node Explorer",
+    "url": "https://node-console.portaldot.dev",
+    "subtitle": "Portaldot V3 Node Explorer",
     "is_substrate": null,
     "is_evm": null,
     "is_featured": true,
-    "ordinal": 1,
+    "ordinal": 3,
     "desktop_mode": null,
     "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/dapps/dapps-icon/icon-1.png",
     "preview_image": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/dapps/dapps-image/image-1.png",
     "chains": [
-      "portaldot"
+      "portaldot_v3"
     ],
     "categories": [
       "tool"
     ]
   },
   {
-    "id": 2,
-    "title": "Portaldot Blockchain Explorer",
-    "description": "Portaldot Blockchain Explorer",
-    "url": "https://portalscan.portaldot.io",
-    "subtitle": "Portaldot Node Explorer",
+    "id": 4,
+    "title": "Portaldot V3 Blockchain Explorer",
+    "description": "Portaldot V3 Blockchain Explorer",
+    "url": "https://scanner-live-v3.portaldot.dev",
+    "subtitle": "Portaldot V3 Blockchain Explorer",
     "is_substrate": null,
     "is_evm": null,
     "is_featured": true,
-    "ordinal": 2,
+    "ordinal": 4,
     "desktop_mode": null,
     "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/dapps/dapps-icon/icon-2.png",
     "preview_image": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/dapps/dapps-image/image-2.png",
     "chains": [
-      "portaldot"
+      "portaldot_v3"
     ],
     "categories": [
       "data"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Portaldot Bridge",
+    "description": "Portaldot Bridge",
+    "url": "https://bridge.portaldot.dev",
+    "subtitle": "Portaldot Bridge",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 5,
+    "desktop_mode": null,
+    "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/dapps/dapps-icon/portaldot-bridge.png",
+    "preview_image": null,
+    "chains": [
+      "portaldot_v3"
+    ],
+    "categories": [
+      "bridge"
     ]
   }
 ]
