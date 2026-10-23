@@ -35,6 +35,38 @@
         "cardanoInfo": null
     },
     {
+        "slug": "portaldot_test",
+        "name": "Portaldot Testnet",
+        "isTestnet": true,
+        "chainStatus": "ACTIVE",
+        "icon": "https://cdn.githubraw.com/portaldotVolunteer/wallet-list/main/icons/chains/portaldot.png",
+        "providers": {
+            "Testnet": "wss://drip-node-production.up.railway.app"
+        },
+        "evmInfo": null,
+        "substrateInfo": {
+            "relaySlug": null,
+            "paraId": null,
+            "genesisHash": "0xa07fa01c4ab1987110674eee824b17f6699ee1d576b8c948006ef04672b398a5",
+            "addressPrefix": 42,
+            "chainType": "RELAYCHAIN",
+            "crowdloanUrl": null,
+            "blockExplorer": null,
+            "existentialDeposit": "100000000000",
+            "symbol": "tPOT",
+            "decimals": 14,
+            "hasNativeNft": false,
+            "supportStaking": false,
+            "supportSmartContract": null,
+            "crowdloanParaId": null,
+            "crowdloanFunds": []
+        },
+        "extraInfo": null,
+        "bitcoinInfo": null,
+        "tonInfo": null,
+        "cardanoInfo": null
+    },
+    {
         "slug": "binance",
         "name": "BNB Chain",
         "isTestnet": false,
